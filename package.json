@@ -1,0 +1,25 @@
+{
+  "name": "pubmed-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattakin/pubmed.git"
+  },
+  "author": "Matt Akin",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mattakin/pubmed/issues"
+  },
+  "homepage": "https://github.com/mattakin/pubmed#readme",
+  "dependencies": {
+    "convict": "^4.4.0",
+    "express": "^4.16.4",
+    "log4js": "^3.0.6",
+    "swagger-client": "^3.8.21"
+  }
+}
