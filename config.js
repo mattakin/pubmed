@@ -1,24 +1,24 @@
-var convict = require('convict');
+const convict = require('convict');
 
-var config = convict({
+const config = convict({
   env: {
-    doc: "The application environment.",
-    format: ["production", "development", "test"],
-    default: "development",
-    env: "NODE_ENV"
+    doc: 'The application environment.',
+    format: ['production', 'development', 'test'],
+    default: 'development',
+    env: 'NODE_ENV'
   },
   ip: {
-    doc: "The IP address to bind.",
-    format: "ipaddress",
-    default: "127.0.0.1",
-    env: "IP_ADDRESS",
+    doc: 'The IP address to bind.',
+    format: 'ipaddress',
+    default: '127.0.0.1',
+    env: 'IP_ADDRESS',
   },
   port: {
-    doc: "The port to bind.",
-    format: "port",
+    doc: 'The port to bind.',
+    format: 'port',
     default: 3000,
-    env: "PORT",
-    arg: "port"
+    env: 'PORT',
+    arg: 'port'
   }
 });
 
